@@ -1,0 +1,34 @@
+#!/usr/bin/env sh
+
+set -e
+
+
+# check updates and update all
+sudo dnf check-update
+sudo dnf update -y
+
+sudo dnf update -y kernel*
+sudo dnf install -y gcc kernel-devel kernel-headers dkms make bzip2 perl libxcrypt-compat
+sudo dnf install -y python2-devel python3-devel
+
+
+# vim
+sudo dnf install -y vim
+
+# terminal and fonts
+source $BASEPATH/terminal_and_fonts
+
+# powerline
+source $BASEPATH/powerline
+
+# zsh
+sudo dnf install -y zsh
+
+# rbenv and ruby
+# source $BASEPATH/ruby_and_rbenv
+
+# visual studio code
+# source $BASEPATH/visual_studio_code
+
+
+

@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+
+set -e
+
+BASEPATH="$HOME/.transformfed"
+
+if [ -e $BASEPATH/.git ]; then
+  cd $BASEPATH && git pull
+else
+  git clone https://github.com/gekorob/transformfed.git $BASEPATH
+fi
+
+source $BASEPATH/install
+
+curl https://raw.github.com/gekorob/zetashell/master/bootstrap -L -o - | sh
+curl https://raw.github.com/gekorob/vinavim/master/bootstrap -L -o - | sh
+
