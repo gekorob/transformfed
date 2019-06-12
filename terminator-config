@@ -3,7 +3,7 @@
   homogeneous_tabbar = False
   scroll_tabbar = True
   tab_position = hidden
-  title_font = Inconsolata for Powerline Bold 10
+  title_font = Inconsolata Nerd Font Bold 10
   title_use_system_font = False
 [keybindings]
 [layouts]
@@ -19,7 +19,7 @@
   [[default]]
     background_darkness = 0.8
     cursor_color = "#aaaaaa"
-    font = Inconsolata for Powerline Bold 12
+    font = Inconsolata Nerd Font Bold 12
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     rewrap_on_resize = False
     scrollbar_position = hidden

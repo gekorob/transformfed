@@ -1,11 +1,9 @@
-#!/bin/sh
-
-set -e
+#!/usr/bin/env sh
 
 sudo dnf install -y lxappearance
 
 # moka theme for icons
-sudo dnf config-manager --add-repo http://download.opensuse.org/repositories/home:snwh:moka/Fedora_25/ho
+sudo dnf config-manager --add-repo http://download.opensuse.org/repositories/home:snwh:moka/Fedora_25/home:snwh:moka.repo
 sudo dnf install -y moka-icon-theme
 
 # gtk theme config
