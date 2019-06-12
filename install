@@ -1,10 +1,4 @@
-#!/usr/bin/env sh
-
-set -e
-
-
-# check updates and update all
-sudo dnf check-update
+# updates
 sudo dnf update -y
 
 sudo dnf update -y kernel*

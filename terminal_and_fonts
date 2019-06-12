@@ -1,7 +1,3 @@
-#!/usr/bin/env sh
-
-set -e
-
 # terminals
 sudo dnf install terminator
 sudo dnf install st
