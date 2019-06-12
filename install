@@ -6,6 +6,7 @@ sudo dnf update -y
 sudo dnf update -y kernel*
 sudo dnf install -y gcc kernel-devel kernel-headers dkms make bzip2 perl libxcrypt-compat openssl-devel libyaml-devel libffi-devel redline-devel zlib-devel gdbm-devel ncurses-devel
 sudo dnf install -y python2-devel python3-devel
+sudo dnf install arandr
 
 
 # vim
