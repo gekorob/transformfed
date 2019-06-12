@@ -4,3 +4,6 @@ set -e
 
 sudo dnf install -y powerline
 sudo dnf install -y vim-powerline
+
+mkdir -p $HOME/.config/powerline
+ln -sf $BASEPATH/powerline-config.json $HOME/.config/powerline/config.json

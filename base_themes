@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+sudo dnf install -y lxappearance
+
+# moka theme for icons
+sudo dnf config-manager --add-repo http://download.opensuse.org/repositories/home:snwh:moka/Fedora_25/ho
+sudo dnf install -y moka-icon-theme
+
+# gtk theme config
+mkdir -p $HOME/.config/gtk-3.0
+ln -sf $BASEPATH/gtk-3.0-settings-config.ini $HOME/.config/gtk-3.0/settings.ini
+ln -sf $BASEPATH/gtkrc-2.0-config $HOME/.gtkrc-2.0

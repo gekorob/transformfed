@@ -15,6 +15,9 @@ sudo dnf install -y python2-devel python3-devel
 # vim
 sudo dnf install -y vim
 
+# base themes
+source $BASEPATH/base_themes
+
 # terminal and fonts
 source $BASEPATH/terminal_and_fonts
 
@@ -23,6 +26,9 @@ source $BASEPATH/powerline
 
 # zsh
 sudo dnf install -y zsh
+
+# filemanagers
+sudo dnf install -y thunar nemo pcmanfm
 
 # rbenv and ruby
 # source $BASEPATH/ruby_and_rbenv
