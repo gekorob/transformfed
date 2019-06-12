@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 sudo dnf install -y powerline
 sudo dnf install -y vim-powerline
 

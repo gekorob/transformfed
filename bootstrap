@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
 
-set -e
-
 BASEPATH="$HOME/.transformfed"
 
 if [ -e $BASEPATH/.git ]; then

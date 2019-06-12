@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 sudo dnf install -y lxappearance
 
 # moka theme for icons
