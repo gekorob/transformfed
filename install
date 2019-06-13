@@ -8,6 +8,11 @@ sudo dnf install -y gcc kernel-devel kernel-headers dkms make bzip2 perl libxcry
 sudo dnf install -y python2-devel python3-devel
 sudo dnf install arandr
 
+# chrome
+sudo dnf install -y fedora-workstation-repositories
+sudo dnf config-manager --set-enabled google-chrome
+sudo dnf install -y google-chrome-stable
+
 # networkmanager network ui
 sudo dnf install -y NetworkManager-tui
 
@@ -15,13 +20,13 @@ sudo dnf install -y NetworkManager-tui
 sudo dnf install -y vim
 
 # base themes
-source $BASEPATH/base_themes
+source $BASEPATH/base_themes_setup
 
 # terminal and fonts
-source $BASEPATH/terminal_and_fonts
+source $BASEPATH/terminal_and_fonts_setup
 
 # powerline
-source $BASEPATH/powerline
+source $BASEPATH/powerline_setup
 
 # zsh
 sudo dnf install -y zsh
@@ -33,7 +38,7 @@ sudo dnf install -y thunar nemo pcmanfm
 source $BASEPATH/rbenv_setup
 
 # visual studio code
-# source $BASEPATH/visual_studio_code
+source $BASEPATH/visual_studio_code_setup
 
 
 

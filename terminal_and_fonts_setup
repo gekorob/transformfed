@@ -11,6 +11,11 @@ sudo dnf install mc
 # set profile
 ln -sf $BASEPATH/profile $HOME/.profile
 ln -sf $BASEPATH/profile $HOME/.zprofile
+
+# Fonts config
+mkdir -p $HOME/.config/fontconfig
+ln -sf $BASEPATH/fonts-fontconfig.conf $HOME/.config/fontconfig/fonts.conf
+
 # fonts
 LOCAL_FONTS_PATH=~/.local/share/fonts
 mkdir -p $LOCAL_FONTS_PATH
