@@ -6,11 +6,11 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 sudo dnf install -y code
 
 /usr/bin/code --install-extension vscodevim.vim
-/usr/bin/code --install-extension vscodeintellicode
-/usr/bin/code --install-extension material-icon-theme
-/usr/bin/code --install-extension gitlens
-/usr/bin/code --install-extension code-settings-sync
-/usr/bin/code --install-extension beautify
+/usr/bin/code --install-extension VisualStudioExptTeam.vscodeintellicode
+/usr/bin/code --install-extension PKief.material-icon-theme
+/usr/bin/code --install-extension eaomodio.gitlens
+/usr/bin/code --install-extension Shan.code-settings-sync
+/usr/bin/code --install-extension HookyQR.beautify
 
 mkdir -p $HOME/.config/Code/User
 cp $BASEPATH/settings-config-Code-User.json $HOME/.config/Code/User/settings.json
