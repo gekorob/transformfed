@@ -10,3 +10,5 @@ sudo dnf install -y moka-icon-theme
 mkdir -p $HOME/.config/gtk-3.0
 ln -sf $BASEPATH/gtk-3.0-settings-config.ini $HOME/.config/gtk-3.0/settings.ini
 ln -sf $BASEPATH/gtkrc-2.0-config $HOME/.gtkrc-2.0
+
+ln -sf $BASEPATH/Xresources $HOME/.Xresources
