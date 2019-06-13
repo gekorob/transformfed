@@ -9,7 +9,7 @@ sudo dnf install -y code
 /usr/bin/code --install-extension vscodevim.vim
 /usr/bin/code --install-extension VisualStudioExptTeam.vscodeintellicode
 /usr/bin/code --install-extension PKief.material-icon-theme
-/usr/bin/code --install-extension eaomodio.gitlens
+/usr/bin/code --install-extension eamodio.gitlens
 /usr/bin/code --install-extension Shan.code-settings-sync
 /usr/bin/code --install-extension HookyQR.beautify
 
