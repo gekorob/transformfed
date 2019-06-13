@@ -8,6 +8,9 @@ sudo dnf install xterm
 # MidnightCommander
 sudo dnf install mc
 
+# set profile
+ln -sf $BASEPATH/profile $HOME/.profile
+ln -sf $BASEPATH/profile $HOME/.zprofile
 # fonts
 LOCAL_FONTS_PATH=~/.local/share/fonts
 mkdir -p $LOCAL_FONTS_PATH
