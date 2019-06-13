@@ -8,6 +8,8 @@ sudo dnf install -y gcc kernel-devel kernel-headers dkms make bzip2 perl libxcry
 sudo dnf install -y python2-devel python3-devel
 sudo dnf install arandr
 
+# networkmanager network ui
+sudo dnf install -y NetworkManager-tui
 
 # vim
 sudo dnf install -y vim
