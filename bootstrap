@@ -12,4 +12,4 @@ source $BASEPATH/install
 
 curl https://raw.github.com/gekorob/zetashell/master/bootstrap -L -o - | sh
 curl https://raw.github.com/gekorob/vinavim/master/bootstrap -L -o - | sh
-
+curl https://raw.github.com/gekorob/i3ify/master/bootstrap -L -o - | sh
