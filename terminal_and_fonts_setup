@@ -25,6 +25,7 @@ sudo dnf install -y powerline-fonts
 # Patched Fonts for VSCode integrated terminal in particular
 cd $LOCAL_FONTS_PATH && curl -fLo "Inconsolata for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Inconsolata/complete/Inconsolata%20Nerd%20Font%20Complete.otf
 cd $LOCAL_FONTS_PATH && curl -fLo "Inconsolata for Powerline Nerd Font Complete Mono.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/Inconsolata/complete/Inconsolata%20Nerd%20Font%20Complete%20Mono.otf
+cd $LOCAL_FONTS_PATH && curl -fLo "Go Mono for Powerline.ttf" https://github.com/powerline/fonts/raw/master/GoMono/Go%20Mono%20for%20Powerline.ttf
 
 # San Francisco OSx like fonts
 cd $LOCAL_FONTS_PATH && curl -fLo "System San Francisco Display Bold.ttf" https://github.com/supermarin/YosemiteSanFranciscoFont/raw/master/System%20San%20Francisco%20Display%20Bold.ttf
