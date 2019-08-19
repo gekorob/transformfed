@@ -10,6 +10,7 @@
   [[default]]
     [[[child1]]]
       parent = window0
+      profile = default
       type = Terminal
     [[[window0]]]
       parent = ""
@@ -21,7 +22,6 @@
     cursor_color = "#aaaaaa"
     font = Inconsolata Nerd Font Bold 12
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    rewrap_on_resize = False
     scrollbar_position = hidden
     show_titlebar = False
     use_system_font = False

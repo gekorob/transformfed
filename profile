@@ -4,7 +4,7 @@
 export PATH="$PATH:$(du -a "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
 export EDITOR="vim"
 export TERMINAL="terminator"
-export BROWSER="firefox"
+export BROWSER="google-chrome"
 
 unset GIT_ASKPASS
 unset SSH_ASKPASS
