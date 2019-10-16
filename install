@@ -20,6 +20,10 @@ sudo dnf install -y NetworkManager-tui
 # vim
 sudo dnf install -y ack ctags ripgrep vim the_silver_searcher xsel bat
 
+# keyboard and touchpad basic stuff
+sudo cp $BASEPATH/00-keyboard.conf /etc/X11/xorg.conf.d/
+sudo cp $BASEPATH/90-touchpad.conf /etc/X11/xorg.conf.d/
+
 # base themes
 source $BASEPATH/base_themes_setup
 
