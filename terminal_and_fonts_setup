@@ -4,6 +4,7 @@
 sudo dnf install -y terminator
 sudo dnf install -y st
 sudo dnf install -y xterm
+sudo dnf install -y xcape
 
 # MidnightCommander
 sudo dnf install -y mc
