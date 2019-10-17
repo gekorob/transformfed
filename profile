@@ -10,7 +10,7 @@ unset GIT_ASKPASS
 unset SSH_ASKPASS
 
 # set caps_lock as CTRL and activate capslock with both shift pressed
-setxkbmap -option 'caps:none,caps:ctrl_modifier,shift:both_capslock'
+setxkbmap -option 'caps:ctrl_modifier,shift:both_capslock'
 
 # set caps_lock single pressure as ESC
 # xcape -t 150
