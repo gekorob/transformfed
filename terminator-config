@@ -7,6 +7,7 @@
   title_use_system_font = False
 [keybindings]
   broadcast_all = <Primary><Shift><Alt>plus
+  help = <Shift><Super>percent
 [layouts]
   [[default]]
     [[[child1]]]
