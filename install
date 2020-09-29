@@ -40,8 +40,12 @@ sudo dnf install -y zsh
 # filemanagers
 sudo dnf install -y thunar nemo pcmanfm
 
-# rbenv and ruby
+# rbenv, pyenv, nvm, go and fzf 
 source $BASEPATH/rbenv_setup
+source $BASEPATH/pyenv_setup
+source $BASEPATH/nvm_setup
+source $BASEPATH/go_setup
+source $BASEPATH/fzf_setup
 
 # visual studio code
 source $BASEPATH/visual_studio_code_setup
