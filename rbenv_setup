@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
 # using rbenv installer
-curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | zsh
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash
