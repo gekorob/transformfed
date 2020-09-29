@@ -50,5 +50,7 @@ source $BASEPATH/fzf_setup
 # visual studio code
 source $BASEPATH/visual_studio_code_setup
 
+# screenlayouts
+ln -sf $BASEPATH/screenlayout $HOME/.screenlayout
 
 
