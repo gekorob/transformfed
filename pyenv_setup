@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# using pyenv installer
+curl -fsSL https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
