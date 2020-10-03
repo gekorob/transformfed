@@ -28,6 +28,9 @@ sudo cp $BASEPATH/90-touchpad.conf /etc/X11/xorg.conf.d/
 # base themes
 source $BASEPATH/base_themes_setup
 
+# default apps
+source $BASEPATH/default_apps_setup
+
 # terminal and fonts
 source $BASEPATH/terminal_and_fonts_setup
 
