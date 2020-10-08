@@ -15,3 +15,5 @@ setxkbmap -option 'caps:ctrl_modifier,shift:both_capslock'
 # set caps_lock single pressure as ESC
 # xcape -t 150
 # xcape -e 'Caps_Lock=Escape'
+
+export PATH="$HOME/.cargo/bin:$PATH"
