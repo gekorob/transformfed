@@ -34,9 +34,6 @@ source $BASEPATH/default_apps_setup
 # terminal and fonts
 source $BASEPATH/terminal_and_fonts_setup
 
-# powerline
-source $BASEPATH/powerline_setup
-
 # zsh
 sudo dnf install -y zsh
 
