@@ -6,4 +6,4 @@ if [ -z  "$mode_exists" ]; then
   xrandr --addmode eDP-1 "myres_1600x900_60.00"
 fi
 
-xrandr --output eDP-1 --primary --mode "myres_1600x900_60.00" --pos 0x0 --rotate normal --output DP-1 --off --output HDMI-1 --off --output DP-2 --off --output HDMI-2 --off --output DP-2-1 --off --output DP-2-2 --off --output DP-2-3 --off
+xrandr --output eDP-1 --primary --mode "myres_1600x900_60.00" --pos 0x0 --rotate normal --output DP-1 --off --output HDMI-1 --off --output DP-2 --off --output HDMI-2 --off --output DP-2-1 --off --output DP-2-1 --off --output DP-2-8 --off
