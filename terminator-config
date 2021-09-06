@@ -1,13 +1,22 @@
 [global_config]
   extra_styling = False
-  homogeneous_tabbar = False
-  scroll_tabbar = True
   tab_position = hidden
-  title_font = Inconsolata Nerd Font Bold 10
+  scroll_tabbar = True
+  homogeneous_tabbar = False
   title_use_system_font = False
+  title_font = Inconsolata Nerd Font Bold 10
+  case_sensitive = False
 [keybindings]
   broadcast_all = <Primary><Shift><Alt>plus
   help = <Shift><Super>percent
+[profiles]
+  [[default]]
+    background_darkness = 0.8
+    cursor_color = "#aaaaaa"
+    font = Inconsolata Nerd Font Bold 12
+    show_titlebar = False
+    scrollbar_position = hidden
+    use_system_font = False
 [layouts]
   [[default]]
     [[[child1]]]
@@ -18,11 +27,3 @@
       parent = ""
       type = Window
 [plugins]
-[profiles]
-  [[default]]
-    background_darkness = 0.8
-    cursor_color = "#aaaaaa"
-    font = Inconsolata Nerd Font Bold 12
-    scrollbar_position = hidden
-    show_titlebar = False
-    use_system_font = False
