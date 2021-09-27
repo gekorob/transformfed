@@ -10,6 +10,10 @@ xrandr --output DP-1 --off || true
 xrandr --output HDMI-1 --off || true
 xrandr --output DP-2 --off || true
 xrandr --output HDMI-2 --off || true 
+xrandr --output DP-1-1 --off || true 
+xrandr --output DP-1-2 --off || true 
+xrandr --output DP-1-3 --off || true 
+xrandr --output DP-1-8 --off || true
 xrandr --output DP-2-1 --off || true 
 xrandr --output DP-2-2 --off || true 
 xrandr --output DP-2-3 --off || true 
