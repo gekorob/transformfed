@@ -55,3 +55,12 @@
 *color21:      base06
 
 Xcursor.size: 16
+
+! --- urxvt fonts (Nerd Font for powerline glyphs, matching terminator) ---
+URxvt.font:        xft:Inconsolata Nerd Font Mono:style=Medium:size=12
+URxvt.boldFont:    xft:Inconsolata Nerd Font Mono:style=Bold:size=12
+URxvt.letterSpace: 0
+! hide the scrollbar
+URxvt.scrollBar: false
+! allow the font glyphs (powerline/icons) instead of substituting
+URxvt.skipBuiltinGlyphs: true

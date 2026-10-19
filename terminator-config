@@ -3,8 +3,6 @@
   tab_position = hidden
   scroll_tabbar = True
   homogeneous_tabbar = False
-  title_use_system_font = False
-  title_font = Inconsolata Nerd Font Bold 10
   case_sensitive = False
 [keybindings]
   broadcast_all = <Primary><Shift><Alt>plus
@@ -12,7 +10,6 @@
 [profiles]
   [[default]]
     background_darkness = 0.8
-    cursor_color = "#aaaaaa"
     font = Inconsolata Nerd Font Bold 12
     show_titlebar = False
     scrollbar_position = hidden
